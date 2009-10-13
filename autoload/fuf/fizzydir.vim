@@ -35,7 +35,7 @@ function fuf#fizzydir#requiresOnCommandPre()
   return 0
 endfunction
 
-command! FizzyRenewCache ruby refresh_fizzy_finders
+command! FizzyDirRenewCache ruby refresh_fizzydir_finder
 
 "
 function fuf#fizzydir#onInit()

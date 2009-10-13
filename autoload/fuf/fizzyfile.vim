@@ -35,7 +35,7 @@ function fuf#fizzyfile#requiresOnCommandPre()
   return 0
 endfunction
 
-command! FizzyRenewCache ruby refresh_fizzy_finders
+command! FizzyFileRenewCache ruby refresh_fizzyfile_finder
 
 "
 function fuf#fizzyfile#onInit()
